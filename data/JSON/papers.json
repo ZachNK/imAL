@@ -1,0 +1,370 @@
+[ 
+    {
+        "year": 2004,
+        "algorithm": "SIFT",
+        "title": "Introduction to SIFT (Scale-Invariant Feature Transform)",
+        "paper": "https://www.diva-portal.org/smash/get/diva2:480321/FULLTEXT02",
+        "link": "https://docs.opencv.org/4.x/da/df5/tutorial_py_sift_intro.html",
+        "summary": "In last couple of chapters, we saw some corner detectors like Harris etc. They are rotation-invariant, which means, even if the image is rotated, we can find the same corners. It is obvious because corners remain corners in rotated image also. But what about scaling? A corner may not be a corner if the image is scaled. For example, check a simple image below. A corner in a small image within a small window is flat when it is zoomed in the same window. So Harris corner is not scale invariant."
+    },
+    {
+        "year": 2017,
+        "algorithm": "HardNet",
+        "title": "Working hard to know your neighbor's margins: Local descriptor learning loss",
+        "paper": "https://arxiv.org/pdf/1705.10872",
+        "link": "https://github.com/DagnyT/hardnet",
+        "summary": ""
+    },
+    {
+        "year": 2019,
+        "algorithm": "SOSNet",
+        "title": "SOSNet: Second Order Similarity Regularization for Local Descriptor Learning",
+        "paper": "https://arxiv.org/pdf/1904.05019",
+        "link": "https://github.com/scape-research/SOSNet",
+        "summary": ""
+    },
+    {
+        "year": 2019,
+        "algorithm": "OANet",
+        "title": "Learning Two-View Correspondences and Geometry Using Order-Aware Network",
+        "paper": "https://arxiv.org/pdf/1908.04964",
+        "link": "https://github.com/zjhthu/OANet",
+        "summary": ""
+    },
+    {
+        "year": 2019,
+        "algorithm": "Key.Net",
+        "title": "Key.Net: Keypoint Detection by Handcrafted and Learned CNN Filters",
+        "paper": "https://arxiv.org/pdf/1904.00889",
+        "link": "https://github.com/axelBarroso/Key.Net",
+        "summary": ""
+    },
+    {
+        "year": 2020,
+        "algorithm": "DISK",
+        "title": "DISK: Learning local features with policy gradient",
+        "paper": "https://arxiv.org/pdf/2006.13566",
+        "link": "https://github.com/cvlab-epfl/disk",
+        "summary": ""
+    },
+    {
+        "year": 2019,
+        "algorithm": "R2D2",
+        "title": "R2D2: Reliable and Repeatable Detector and Descriptor",
+        "paper": "https://arxiv.org/pdf/1906.06195",
+        "link": "https://github.com/naver/r2d2",
+        "summary": ""
+    },
+    {
+        "year": 2019,
+        "algorithm": "D2Net",
+        "title": "D2-Net: A Trainable CNN for Joint Description and Detection of Local Features",
+        "paper": "https://arxiv.org/pdf/1905.03561",
+        "link": "https://github.com/Vincentqyw/d2-net",
+        "summary": ""
+    },
+    {
+        "year": 2020,
+        "algorithm": "SuperGlue",
+        "title": "SuperGlue: Learning Feature Matching with Graph Neural Networks",
+        "paper": "https://arxiv.org/pdf/1911.11763",
+        "link": "https://github.com/magicleap/SuperGluePretrainedNetwork",
+        "summary": ""
+    },
+    {
+        "year": 2018,
+        "algorithm": "SuperPoint",
+        "title": "SuperPoint: Self-Supervised Interest Point Detection and Description",
+        "paper": "https://arxiv.org/pdf/1712.07629",
+        "link": "https://github.com/magicleap/SuperPointPretrainedNetwork",
+        "summary": ""
+    },
+    {
+        "year": 2021,
+        "algorithm": "SGMNet",
+        "title": "Learning to Match Features with Seeded Graph Matching Network",
+        "paper": "https://arxiv.org/pdf/2108.08771",
+        "link": "https://github.com/vdvchen/SGMNet",
+        "summary": ""
+    },
+    {
+        "year": 2021,
+        "algorithm": "RoRD",
+        "title": "RoRD: Rotation-Robust Descriptors and Orthographic Views for Local Feature Matching",
+        "paper": "https://arxiv.org/pdf/2103.08573",
+        "link": "https://github.com/UditSinghParihar/RoRD",
+        "summary": ""
+    },
+    {
+        "year": 2022,
+        "algorithm": "ALIKE",
+        "title": "COTR: Correspondence Transformer for Matching Across Images",
+        "paper": "https://arxiv.org/pdf/2112.02906",
+        "link": "https://github.com/Shiaoming/ALIKE",
+        "summary": ""
+    },
+    {
+        "year": 2021,
+        "algorithm": "COTR",
+        "title": "COTR: Correspondence Transformer for Matching Across Images",
+        "paper": "https://arxiv.org/pdf/2103.14167",
+        "link": "https://github.com/ubc-vision/COTR",
+        "summary": ""
+    },
+    {
+        "year": 2022,
+        "algorithm": "REKD",
+        "title": "Self-Supervised Equivariant Learning for Oriented Keypoint Detection",
+        "paper": "https://arxiv.org/pdf/2103.14167",
+        "link": "https://github.com/bluedream1121/REKD",
+        "summary": ""
+    },
+    {
+        "year": 2022,
+        "algorithm": "LISRD",
+        "title": "Online Invariance Selection for Local Feature Descriptors",
+        "paper": "https://arxiv.org/pdf/2007.08988",
+        "link": "https://github.com/rpautrat/LISRD",
+        "summary": ""
+    },
+    {
+        "year": 2022,
+        "algorithm": "LANet",
+        "title": "Rethinking Low-level Features for Interest Point Detection and Description",
+        "paper": "https://openaccess.thecvf.com/content/ACCV2022/papers/Wang_Rethinking_Low-level_Features_for_Interest_Point_Detection_and_Description_ACCV_2022_paper.pdf",
+        "link": "https://github.com/wangch-g/lanet",
+        "summary": ""
+    },
+    {
+        "year": 2022,
+        "algorithm": "AspanFormer",
+        "title": "ASpanFormer: Detector-Free Image Matching with Adaptive Span Transformer",
+        "paper": "https://arxiv.org/pdf/2208.14201",
+        "link": "https://github.com/Vincentqyw/ml-aspanformer",
+        "summary": ""
+    },
+    {
+        "year": 2023,
+        "algorithm": "TopicFM",
+        "title": "TopicFM: Robust and Interpretable Topic-assisted Feature Matching",
+        "paper": "https://arxiv.org/pdf/2207.00328",
+        "link": "https://github.com/Vincentqyw/TopicFM",
+        "summary": ""
+    },
+    {
+        "year": 2023,
+        "algorithm": "NCMNet",
+        "title": "NCMNet: Neighbor Consistency Mining Network for Two-View Correspondence Pruning",
+        "paper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10705098",
+        "link": "https://github.com/xinliu29/NCMNet",
+        "summary": "In this paper, we propose a global-graph space to explicitly capture the strong consistency of inliners at a global level so that correspondences with similar global graph structures can be neigbors. Meanwhile, to enhance the robustness of method for complex matching scenes, we empirically devise a neighbor consistency block. It progressively extracts and integrates three types of neighbor contexts through the proposed SCE layer and CCI layer."
+    },
+    {
+        "year": 2023,
+        "algorithm": "DKM",
+        "title": "DKM: Dense Kernelized Feature Matching for Geometry Estimation",
+        "paper": "https://openaccess.thecvf.com/content/CVPR2023/papers/Edstedt_DKM_Dense_Kernelized_Feature_Matching_for_Geometry_Estimation_CVPR_2023_paper.pdf",
+        "link": "https://github.com/Parskatt/DKM",
+        "summary": ""
+    },
+    {
+        "year": 2021,
+        "algorithm": "LineTR",
+        "title": "Line as a Visual Sentence: Context-Aware Line Descriptor for Visual Localization",
+        "paper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9535286&tag=1",
+        "link": "https://github.com/yosungho/LineTR",
+        "summary": ""
+    },
+    {
+        "year": 2021,
+        "algorithm": "SOLD2",
+        "title": "SOLD2: Self-supervised Occlusion-aware Line Description and Detection",
+        "paper": "https://arxiv.org/pdf/2104.03362",
+        "link": "https://github.com/cvg/SOLD2",
+        "summary": ""
+    },
+    {
+        "year": 2021,
+        "algorithm": "LoFTR",
+        "title": "LoFTR: Detector-Free Local Feature Matching with Transformers",
+        "paper": "https://arxiv.org/pdf/2104.00680",
+        "link": "https://github.com/zju3dv/LoFTR",
+        "summary": ""
+    },
+    {
+        "year": 2023,
+        "algorithm": "ConvMatch",
+        "title": "ConvMatch: Rethinking Network Design for Two-View Correspondence Learning",
+        "paper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10323178",
+        "link": "https://github.com/SuhZhang/ConvMatch",
+        "summary": ""
+    },
+    {
+        "year": 2023,
+        "algorithm": "GlueStick",
+        "title": "GlueStick: Robust Image Matching by Sticking Points and Lines Together",
+        "paper": "https://arxiv.org/pdf/2304.02008",
+        "link": "https://github.com/cvg/GlueStick",
+        "summary": ""
+    },
+    {
+        "year": 2023,
+        "algorithm": "DeepLSD",
+        "title": "DeepLSD: Line Segment Detection and Refinement with Deep Image Gradients",
+        "paper": "https://arxiv.org/pdf/2212.07766",
+        "link": "https://github.com/cvg/DeepLSD",
+        "summary": ""
+    },
+    {
+        "year": 2023,
+        "algorithm": "SEM",
+        "title": "Structured Epipolar Matcher for Local Feature Matching",
+        "paper": "https://openaccess.thecvf.com/content/CVPR2023W/IMW/papers/Chang_Structured_Epipolar_Matcher_for_Local_Feature_Matching_CVPRW_2023_paper.pdf",
+        "link": "https://github.com/SEM2023/SEM",
+        "summary": ""
+    },
+    {
+        "year": 2023,
+        "algorithm": "ASTR",
+        "title": "Adaptive Spot-Guided Transformer for Consistent Local Feature Matching",
+        "paper": "https://arxiv.org/pdf/2303.16624",
+        "link": "https://github.com/ASTR2023/ASTR",
+        "summary": ""
+    },
+    {
+        "year": 2023,
+        "algorithm": "IMP",
+        "title": "IMP: Iterative Matching and Pose Estimation with Adaptive Pooling",
+        "paper": "https://arxiv.org/pdf/2304.14837",
+        "link": "https://github.com/feixue94/imp-release",
+        "summary": ""
+    },
+    {
+        "year": 2023,
+        "algorithm": "SFD2",
+        "title": "SFD2: Semantic-guided Feature Detection and Description",
+        "paper": "https://arxiv.org/pdf/2304.14845",
+        "link": "https://github.com/feixue94/sfd2",
+        "summary": ""
+    },
+    {
+        "year": 2023,
+        "algorithm": "DarkFeat",
+        "title": "",
+        "paper": "https://cg.cs.tsinghua.edu.cn/people/~Yongjin/2023-DarkFeat-Noise-Robust-Feature-Detector-and%20Descriptor-for-Extremely-Low-Light-RAW-Images.pdf",
+        "link": "https://github.com/THU-LYJ-Lab/DarkFeat",
+        "summary": ""
+    },
+    {
+        "year": 2023,
+        "algorithm": "LightGlue",
+        "title": "LightGlue: Local Feature Matching at Light Speed",
+        "paper": "https://arxiv.org/pdf/2306.13643",
+        "link": "https://github.com/cvg/LightGlue",
+        "summary": ""
+    },
+    {
+        "year": 2023,
+        "algorithm": "ALIKED",
+        "title": "ALIKED: A Lighter Keypoint and Descriptor Extraction Network via Deformable Transformation",
+        "paper": "https://arxiv.org/pdf/2304.03608",
+        "link": "https://github.com/Shiaoming/ALIKED",
+        "summary": ""
+    },
+    {
+        "year": 2024,
+        "algorithm": "GIM",
+        "title": "Gim: Learning generalizable image matcher from internet videos",
+        "paper": "https://arxiv.org/pdf/2402.11095",
+        "link": "https://github.com/xuelunshen/gim",
+        "summary": ""
+    },
+    {
+        "year": 2024,
+        "algorithm": "Mickey",
+        "title": "Matching 2D Images in 3D: Metric Relative Pose from Metric Correspondences",
+        "paper": "https://storage.googleapis.com/niantic-lon-static/research/mickey/mickey_main_paper.pdf",
+        "link": "https://github.com/nianticlabs/mickey",
+        "summary": ""
+    },
+    {
+        "year": 2024,
+        "algorithm": "DeDoDe",
+        "title": "Detect, Don't Describe --- Describe, Don't Detect for Local Feature Matching",
+        "paper": "https://arxiv.org/pdf/2308.08479",
+        "link": "https://github.com/Parskatt/DeDoDe?tab=readme-ov-file",
+        "summary": ""
+    },
+    {
+        "year": 2024,
+        "algorithm": "RoMa",
+        "title": "RoMa: Robust Dense Feature Matching",
+        "paper": "https://arxiv.org/pdf/2305.15404",
+        "link": "https://github.com/Vincentqyw/RoMa",
+        "summary": ""
+    },
+    {
+        "year": 2024,
+        "algorithm": "XFeat",
+        "title": "XFeat: Accelerated Features for Lightweight Image Matching",
+        "paper": "https://arxiv.org/pdf/2404.19174",
+        "link": "https://github.com/verlab/accelerated_features?tab=readme-ov-file",
+        "summary": ""
+    },
+    {
+        "year": 2024,
+        "algorithm": "OmniGlue",
+        "title": "OmniGlue: Generalizable Feature Matching with Foundation Model Guidance",
+        "paper": "https://arxiv.org/pdf/2405.12979",
+        "link": "https://github.com/Vincentqyw/omniglue-onnx",
+        "summary": ""
+    },
+    {
+        "year": 2024,
+        "algorithm": "DUSt3R",
+        "title": "DUSt3R: Geometric 3D Vision Made Easy",
+        "paper": "https://arxiv.org/pdf/2312.14132",
+        "link": "https://github.com/naver/dust3r",
+        "summary": ""
+    },
+    {
+        "year": 2024,
+        "algorithm": "MASt3R",
+        "title": "DUSt3R: Geometric 3D Vision Made Easy",
+        "paper": "https://arxiv.org/pdf/2312.14132",
+        "link": "https://github.com/naver/mast3r",
+        "summary": ""
+    },
+    {
+        "year": 2024,
+        "algorithm": "EfficientLoFTR",
+        "title": "Efficient LoFTR: Semi-Dense Local Feature Matching with Sparse-Like Speed",
+        "paper": "https://zju3dv.github.io/efficientloftr/files/EfficientLoFTR.pdf",
+        "link": "https://github.com/zju3dv/EfficientLoFTR",
+        "summary": ""
+    },
+    {
+        "year": 2024,
+        "algorithm": "XoFTR",
+        "title": "XoFTR: Cross-modal Feature Matching Transformer",
+        "paper": "https://arxiv.org/pdf/2404.09692",
+        "link": "https://github.com/OnderT/XoFTR",
+        "summary": ""
+    },
+    {
+        "year": 2024,
+        "algorithm": "MINIMA",
+        "title": "MINIMA: Modality Invariant Image Matching",
+        "paper": "https://arxiv.org/pdf/2412.19412",
+        "link": "https://github.com/LSXI7/MINIMA",
+        "summary": ""
+    },
+    {
+        "year": 2025,
+        "algorithm": "DaD",
+        "title": "DaD: Distilled Reinforcement Learning for Diverse Keypoint Detection",
+        "paper": "https://arxiv.org/pdf/2503.07347",
+        "link": "https://github.com/Parskatt/dad",
+        "summary": ""
+    }
+]
